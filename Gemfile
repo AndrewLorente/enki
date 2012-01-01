@@ -5,12 +5,9 @@ gem 'rails', '3.0.4'
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
 
-platforms :ruby do
-  gem 'pg'
-end
+gem 'pg'
 
 platforms :jruby do
-  gem 'activerecord-jdbcsqlite3-adapter'
   gem 'trinidad'
   gem 'jruby-openssl'
 end
