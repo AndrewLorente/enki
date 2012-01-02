@@ -1,332 +1,332 @@
 /* High level containers */
 body
 {
-  color: black;
+    color: black;
 
-  font: normal 12px verdana, arial, helvetica, sans-serif;
-  line-height: 1.5;
-  padding: 0px;
-  margin: 0px;
+    font: normal 12px verdana, arial, helvetica, sans-serif;
+    line-height: 1.5;
+    padding: 0px;
+    margin: 0px;
 }
 
 #page_container
 {
-  position: absolute;
-  min-height: 400px;
+    position: absolute;
+    min-height: 400px;
 
-  color: black;
-  width: 100%;
+    color: black;
+    width: 100%;
 }
 
 #content {
-  width: 900px;
-  margin: 5px auto;
-  position: relative;
-  padding-right: 55px;
+    width: 900px;
+    margin: 5px auto;
+    position: relative;
+    padding-right: 55px;
 /*  display: inline;*/
 }
 
 #footer
 {
-  position: relative;
-  font-size: 8pt;
+    position: relative;
+    font-size: 8pt;
 /*  padding-top: 5px;*/
-  padding-right: 15px;
-  padding-bottom: 5px;
-  padding-left: 5px;
-  color: gray;
+    padding-right: 15px;
+    padding-bottom: 5px;
+    padding-left: 5px;
+    color: gray;
 /*  border-bottom: solid 1px #aaaaaa;*/
 }
 
 /* Headings */
 h1#page_heading
 {
-  font-size: 24pt;
-  color: #000 !important;
+    font-size: 24pt;
+    color: #000 !important;
 }
 
 h2
 {
-  font-size: 1.4em;
-  color: #333333;
+    font-size: 1.4em;
+    color: #333333;
 }
 
 h2 a, h3, h4, h5
 {
-  color: #333333;
+    color: #333333;
 }
 
 /* Text */
 p
 {
-  padding: 0px;
-  margin-top: 0.5em;
-  margin-bottom: 1em;
-  margin-left: 0px;
-  margin-right: 0px;
+    padding: 0px;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    margin-left: 0px;
+    margin-right: 0px;
 }
 
 strong
 {
-  color: #333333;
+    color: #333333;
 }
 /* Links */
 .openid
 {
-  background-image: url("/images/openid_icon.png");
-  padding-left: 15px;
-  background-repeat: no-repeat;
-  background-position: 0px 2px;
+    background-image: url("/images/openid_icon.png");
+    padding-left: 15px;
+    background-repeat: no-repeat;
+    background-position: 0px 2px;
 }
 
 a
 {
-  color: #000051;
+    color: #000051;
 
-  text-decoration: none;
+    text-decoration: none;
 }
 
 small a, label a
 {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 a:hover
 {
-  text-decoration: underline;
+    text-decoration: underline;
 }
 
 #footer a
 {
-  color: gray;
-  text-decoration: underline;
+    color: gray;
+    text-decoration: underline;
 }
 
 img
 {
-  border: solid 1px black;
+    border: solid 1px black;
 }
 
 /* Two columns */
 #navigation
 {
-  position: absolute;
-  width: 15em;
-  top: -1px;
-  right: -1px;
+    position: absolute;
+    width: 15em;
+    top: -1px;
+    right: -1px;
 
-  border: none;
-  padding: 5px;
+    border: none;
+    padding: 5px;
 }
 
 #navigation h2
 {
-  display: inline;
+    display: inline;
 }
 
 
 #navigation label
 {
-  margin-left: 0;
-  font-style: normal;
+    margin-left: 0;
+    font-style: normal;
 }
 
 #navigation ul
 {
-  padding-left: 10px;
+    padding-left: 10px;
 
-  margin-left: 0px;
-  margin-top: 0px;
-  list-style: none;
+    margin-left: 0px;
+    margin-top: 0px;
+    list-style: none;
 }
 
 #navigation ul li
 {
-  padding-left: 0px;
-  margin-left: 0px;
+    padding-left: 0px;
+    margin-left: 0px;
 }
 
 #navigation h3
 {
-  font-size: 1.2em;
-  font-weight: bold;
-  font-family: verdana,arial,helvetica,sans-serif;
+    font-size: 1.2em;
+    font-weight: bold;
+    font-family: verdana,arial,helvetica,sans-serif;
 }
 
 #navigation input
 {
-  border: solid 1px black;
-  width: 100%;
-  margin-left: 10px;
+    border: solid 1px black;
+    width: 100%;
+    margin-left: 10px;
 }
 
 #navigation form
 {
-  margin-bottom: 1em;
+    margin-bottom: 1em;
 }
 
 #main
 {
-  padding-right: 150px;
-  padding-left: 0px;
-  padding-top: 0px;
-  padding-bottom: 40px;
+    padding-right: 150px;
+    padding-left: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
 }
 
 div.meta
 {
- margin-top: 1em;
- margin-bottom: 3em;
+    margin-top: 1em;
+    margin-bottom: 3em;
 }
 /* Formatting */
 
 .meta ul
 {
-  list-style: none;
-  margin: 0px;
-  padding-left: 0em;
-  padding-bottom: 0.5em;
-  display: inline;
-  color: #cccccc;
-  font-size: 9pt;
+    list-style: none;
+    margin: 0px;
+    padding-left: 0em;
+    padding-bottom: 0.5em;
+    display: inline;
+    color: #cccccc;
+    font-size: 9pt;
 }
 .archive-month .tags
 {
-  color: #bbbbbb;
+    color: #bbbbbb;
 }
 
 .meta a, .archive-month .tags a
 {
-  color: #bbbbbb;
-  border-bottom: dotted 1px #bbbbbb;
+    color: #bbbbbb;
+    border-bottom: dotted 1px #bbbbbb;
 }
 
 .meta a:hover
 {
-  text-decoration: none;
+    text-decoration: none;
 }
 
 .meta ul li
 {
-  display: inline;
+    display: inline;
 }
 
 .meta ul li:after
 {
-  content: " | ";
+    content: " | ";
 }
 
 .meta ul li:last-child:after
 {
-  content: "";
+    content: "";
 }
 
 h2
 {
-  margin-bottom: 0px;
+    margin-bottom: 0px;
 }
 
 .separator
 {
-  height: 1px;
-  margin-top:5px;
-  clear: both;
+    height: 1px;
+    margin-top:5px;
+    clear: both;
 }
 
 /* Forms */
 label
 {
-  margin-left: 1em;
+    margin-left: 1em;
 }
 
 textarea, select
 {
-  font: normal 12px verdana, arial, helvetica, sans-serif;
+    font: normal 12px verdana, arial, helvetica, sans-serif;
 }
 
 textarea
 {
-  width: 500px;
+    width: 500px;
 }
 
 #project_summary
 {
-  height: 150px;
+    height: 150px;
 }
 
 #new_comment textarea, #edit_comment textarea
 {
-  height: 150px;
+    height: 150px;
 }
 
 .alt, .container_alt
 {
-  background-color: #fafafa;
+    background-color: #fafafa;
 }
 
 div.date
 {
-  color: #999;
-  font-size: .8em;
+    color: #999;
+    font-size: .8em;
 }
 
 div.comments div.body
 {
-  padding: 5px;
+    padding: 5px;
 }
 
 div.comments div.meta
 {
-  min-height: 0px;
-  padding: 0px;
+    min-height: 0px;
+    padding: 0px;
 }
 
 div.comments div.separator
 {
-  height: 10px;
+    height: 10px;
 }
 
 div.errors
 {
-  border: solid 1px red;
-  background-color: #ffcccc;
-  padding: 5px;
-  padding-left: 10px;
-  width: 485px;
+    border: solid 1px red;
+    background-color: #ffcccc;
+    padding: 5px;
+    padding-left: 10px;
+    width: 485px;
 }
 
 div.errors h3
 {
-  font-size: 1.0em;
+    font-size: 1.0em;
 }
 
 .fieldWithErrors
 {
-  display: inline;
+    display: inline;
 }
 
 span.error
 {
-  font-weight: bold;
-  }
+    font-weight: bold;
+    }
 
 hr
 {
-  border-top: dotted 1px black;
-  border-bottom: none;
-  height: 1px;
+    border-top: dotted 1px black;
+    border-bottom: none;
+    height: 1px;
 }
 
 #preview
 {
-  height: 200px;
-  overflow: auto;
+    height: 200px;
+    overflow: auto;
 }
 
 .related {
-  background-color: #f8f8f8;
-  border: 1px solid silver;
-  padding: 10px;
+    background-color: #f8f8f8;
+    border: 1px solid silver;
+    padding: 10px;
 }
 
 /* Syntax */
@@ -335,29 +335,29 @@ hr
 /* TOC */
 fieldset.toc
 {
-  float: right;
-  border: dotted 1px black;
-  background-color: #fafafa;
-  padding: 10px;
-  margin-left: 5px;
+    float: right;
+    border: dotted 1px black;
+    background-color: #fafafa;
+    padding: 10px;
+    margin-left: 5px;
 }
 
 .toc legend
 {
-  font-weight: bold;
+    font-weight: bold;
 }
 
 .toc ol
 {
-  margin: 0px;
-  padding-left: 0px;
-  list-style-position: inside;
+    margin: 0px;
+    padding-left: 0px;
+    list-style-position: inside;
 }
 
 .toc ol ol
 {
-  list-style-type: lower-alpha;
-  padding-left: 15px;
+    list-style-type: lower-alpha;
+    padding-left: 15px;
 }
 
 pre.ruby .keyword { color: #c41f1f; }
@@ -367,11 +367,11 @@ pre.ruby .string { color: #b77c0a; }
 
 /* CODERAY */
 .CodeRay {
-  background-color: #f8f8f8;
-  border: 1px solid silver;
-  font-family: 'Courier New', 'Terminal', monospace;
-  color: #100;
-  margin-bottom: 1em;
+    background-color: #f8f8f8;
+    border: 1px solid silver;
+    font-family: 'Courier New', 'Terminal', monospace;
+    color: #100;
+    margin-bottom: 1em;
 }
 .CodeRay pre { margin: 0px; font-size: 12px }
 
@@ -383,9 +383,9 @@ table.CodeRay { border-collapse: collapse; width: 100%; padding: 2px }
 table.CodeRay td { padding: 2px 4px; vertical-align: top }
 
 .CodeRay .line_numbers, .CodeRay .no {
-  background-color: #eaeaea;
-  color: gray;
-  text-align: right;
+    background-color: #eaeaea;
+    color: gray;
+    text-align: right;
 }
 .CodeRay .line_numbers tt { font-weight: bold }
 .CodeRay .no { padding: 0px 4px }
