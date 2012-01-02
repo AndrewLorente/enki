@@ -9,6 +9,7 @@ platforms :jruby do
 end
 
 gem 'pg'
+gem 'thin'
 gem 'RedCloth', '~> 4.2.7', :require => 'redcloth'
 gem 'ruby-openid', :require => 'openid'
 gem 'rack-openid', :require => 'rack/openid'
