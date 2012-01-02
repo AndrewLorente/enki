@@ -2,7 +2,7 @@
 body
 {
     color: black;
-
+    background-color: #DAEFD6;
     font: normal 12px verdana, arial, helvetica, sans-serif;
     line-height: 1.5;
     padding: 0px;
@@ -30,12 +30,11 @@ body
 {
     position: relative;
     font-size: 8pt;
-/*  padding-top: 5px;*/
     padding-right: 15px;
     padding-bottom: 5px;
     padding-left: 5px;
-    color: gray;
-/*  border-bottom: solid 1px #aaaaaa;*/
+    color: #7B817A;
+    border-bottom: solid 1px #aaaaaa;
 }
 
 /* Headings */
@@ -48,12 +47,12 @@ h1#page_heading
 h2
 {
     font-size: 1.4em;
-    color: #333333;
+    color: #155707;
 }
 
 h2 a, h3, h4, h5
 {
-    color: #333333;
+    color: #155707;
 }
 
 /* Text */
@@ -81,7 +80,7 @@ strong
 
 a
 {
-    color: #000051;
+    color: #5C0810;
 
     text-decoration: none;
 }
@@ -98,24 +97,25 @@ a:hover
 
 #footer a
 {
-    color: gray;
+    color: #888081;
     text-decoration: underline;
 }
 
 img
 {
-    border: solid 1px black;
+    border: solid 1px #59060E;
 }
 
 /* Two columns */
 #navigation
 {
+    background-color: #FCE1E4;
+    border: 1px #145506 solid;
     position: absolute;
     width: 15em;
     top: -1px;
     right: -1px;
 
-    border: none;
     padding: 5px;
 }
 
@@ -155,8 +155,7 @@ img
 
 #navigation input
 {
-    border: solid 1px black;
-    width: 100%;
+    border: solid 1px #145506;
     margin-left: 10px;
 }
 
@@ -178,6 +177,15 @@ div.meta
     margin-top: 1em;
     margin-bottom: 3em;
 }
+
+div.post
+{
+    background-color: #E1F3DD;
+    padding: 2px;
+    padding-left: 6px;
+    border: 1px #5C0810 solid;
+}
+
 /* Formatting */
 
 .meta ul
@@ -187,18 +195,18 @@ div.meta
     padding-left: 0em;
     padding-bottom: 0.5em;
     display: inline;
-    color: #cccccc;
+    color: #7B817A;
     font-size: 9pt;
 }
 .archive-month .tags
 {
-    color: #bbbbbb;
+    color: #888081;
 }
 
 .meta a, .archive-month .tags a
 {
-    color: #bbbbbb;
-    border-bottom: dotted 1px #bbbbbb;
+    color: #888081;
+    border-bottom: dotted 1px #888081;
 }
 
 .meta a:hover
@@ -312,7 +320,7 @@ span.error
 
 hr
 {
-    border-top: dotted 1px black;
+    border-top: dotted 1px #59060E;
     border-bottom: none;
     height: 1px;
 }
@@ -324,7 +332,7 @@ hr
 }
 
 .related {
-    background-color: #f8f8f8;
+    background-color: #FCE1E4;
     border: 1px solid silver;
     padding: 10px;
 }
