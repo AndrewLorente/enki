@@ -9,12 +9,25 @@ body
     margin: 0px;
 }
 
+#main_head div
+{
+    position: absolute;
+    display: inline;
+    text-align: center;
+    font-size: 23pt;
+}
+
+#main_head h1
+{
+    margin-top: 20px;
+    padding-left: 177px;
+}
+
 #page_container
 {
     position: absolute;
     min-height: 400px;
-
-    color: black;
+    margin-top: 144px;
     width: 100%;
 }
 
@@ -101,11 +114,6 @@ a:hover
     text-decoration: underline;
 }
 
-img
-{
-    border: solid 1px #59060E;
-}
-
 /* Two columns */
 #navigation
 {
@@ -114,9 +122,10 @@ img
     position: absolute;
     width: 15em;
     top: -1px;
-    right: -1px;
+    right: 30px;
 
     padding: 5px;
+    margin-top: 60px;
 }
 
 #navigation h2
@@ -222,11 +231,6 @@ div.post
 .meta ul li:after
 {
     content: " | ";
-}
-
-.meta ul li:last-child:after
-{
-    content: "";
 }
 
 h2
