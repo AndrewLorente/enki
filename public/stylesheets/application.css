@@ -42,7 +42,7 @@ body
 h1#page_heading
 {
     font-size: 24pt;
-    color: #000 !important;
+    color: #000000 !important;
 }
 
 h2
@@ -266,7 +266,7 @@ textarea
 
 div.date
 {
-    color: #999;
+    color: #999999;
     font-size: .8em;
 }
 
