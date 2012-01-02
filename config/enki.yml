@@ -1,6 +1,6 @@
 # Configuration options for your blog - customise to taste
 # This file contains no secret information, so can be stored in source control (unlike database.yml)
-title: I Got Opinions About Programming
+title: Professional Software Deleter
 url:   http://andrewlorente.com
 author:
   name:    Andrew Lorente           # For copyright notice and ATOM feeds
