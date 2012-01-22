@@ -29,4 +29,5 @@ group :development, :test do
   gem 'rspec'
   gem 'rspec-rails'
   gem 'nokogiri', '~> 1.5.0'
+  gem 'spork'
 end
