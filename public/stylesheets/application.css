@@ -114,6 +114,14 @@ a:hover
     text-decoration: underline;
 }
 
+/* roundrects */
+#navigation, div.post, .commentlist li, div .related
+{
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+}
+
 /* Two columns */
 #navigation
 {
@@ -193,6 +201,7 @@ div.post
     padding: 2px;
     padding-left: 6px;
     padding-right: 30px;
+    margin-bottom: 10px;
     border: 1px #5C0810 solid;
 }
 
@@ -272,9 +281,16 @@ textarea
     height: 150px;
 }
 
-.alt, .container_alt
+.alt
 {
-    background-color: #fafafa;
+    background-color: #DAEFD6;
+}
+
+.commentlist li
+{
+    padding: 5px;
+    border: 1px #145506 solid;
+    margin-bottom: 5px;
 }
 
 div.date
