@@ -5,7 +5,7 @@
 <% content_for(:page_title) do -%>
 <%= post_title(@post) -%>
 <% end -%>
-<div class="post post-<%= @post.id %>">
+<article class="post post-<%= @post.id %>">
   <%= render :partial => 'posts/post', :locals => {:post => @post} %>
   <ol class="commentlist">
     <% @post.approved_comments.each do |comment| -%>
@@ -33,4 +33,4 @@
       <p><%= submit_tag "Add Comment" %></p>
     </div>
   <% end -%>
-</div>
+</article>

@@ -12,7 +12,7 @@
   <%= yield(:head) %>
 </head>
 <body>
-  <div id="main_head">
+  <header>
     <a href="<%= root_url %>">
       <div>
         <h1>Andrew Lorente</h1>
@@ -20,14 +20,14 @@
       </div>
       <div><%= image_tag( '/images/header.png', :alt => 'Andrew Lorente') %></div>
     </a>
-  </div>
+  </header>
   <div id="page_container">
-    <div id="content">
+    <section id="content">
       <div id="main">
         <%= yield %>
       </div>
 
-      <div id="navigation">
+      <nav>
         <h2>Pages</h2>
         <ul>
           <% page_links_for_navigation.each do |link| -%>
@@ -50,10 +50,14 @@
             <input type="hidden" name="sitesearch" value="<%= enki_config[:url] %>">
           </div>
         </form>
-      </div>
+      </nav>
 
-      <div id="footer"><%= enki_config[:title] %> &#169; <%= enki_config[:author, :name] %>. Valid <a href="http://validator.w3.org/check?uri=referer">HTML5</a> and <%= link_to "ATOM", "http://feedvalidator.org/check.cgi?url=#{enki_config[:url]}/posts.atom" %>. Powered by <a href="http://www.enkiblog.com" title="A Ruby on Rails blogging app for the fashionable developer">Enki</a>.</div>
-    </div>
+      <footer>
+        <%= enki_config[:title] %> &#169; <%= enki_config[:author, :name] %>.
+        Valid <a href="http://validator.w3.org/check?uri=referer">HTML5</a> and <%= link_to "ATOM", "http://feedvalidator.org/check.cgi?url=#{enki_config[:url]}/posts.atom" %>.
+        Powered by <a href="http://www.enkiblog.com" title="A Ruby on Rails blogging app for the fashionable developer">Enki</a>.
+      </footer>
+    </section>
   </div>
 </body>
 </html>
