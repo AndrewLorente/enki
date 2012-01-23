@@ -5,6 +5,7 @@ class EnkiFormatter
       lambda {|code, lang|
         CodeRay.scan(CGI::unescapeHTML(code), lang).div(
           :line_numbers => :table,
+          :line_number_anchors => false,
         )
       }
     end
