@@ -382,12 +382,12 @@ span.CodeRay { white-space: pre; border: 0px; padding: 2px }
 table.CodeRay { border-collapse: collapse; width: 100%; padding: 2px }
 table.CodeRay td { padding: 2px 4px; vertical-align: top }
 
-.CodeRay .line_numbers, .CodeRay .no {
+.CodeRay .line-numbers, .CodeRay .no {
   background-color: #eaeaea;
   color: gray;
   text-align: right;
 }
-.CodeRay .line_numbers tt { font-weight: bold }
+.CodeRay .line-numbers tt { font-weight: bold }
 .CodeRay .no { padding: 0px 4px }
 .CodeRay .code { width: 100% }
 
