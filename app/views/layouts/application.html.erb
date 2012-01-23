@@ -13,15 +13,16 @@
 </head>
 <body>
   <div id="main_head">
-    <a href="/">
-      <div><h1>Andrew Lorente</h1></div>
-      <div><img src="/images/header.png" alt="Andrew Lorente" /></div>
+    <a href="<%= root_url %>">
+      <div>
+        <h1>Andrew Lorente</h1>
+        <h2><%= enki_config[:title]%></h2>
+      </div>
+      <div><%= image_tag( '/images/header.png', :alt => 'Andrew Lorente') %></div>
     </a>
   </div>
   <div id="page_container">
     <div id="content">
-      <h1 id="page_heading"><a href="<%= root_url %>"><%= enki_config[:title] %></a></h1>
-
       <div id="main">
         <%= yield %>
       </div>
