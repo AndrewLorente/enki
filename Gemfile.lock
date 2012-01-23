@@ -33,7 +33,7 @@ GEM
     arel (2.0.8)
     bouncy-castle-java (1.5.0146.1)
     builder (2.1.2)
-    coderay (0.9.7)
+    coderay (1.0.0)
     cucumber (0.10.0)
       builder (>= 2.1.2)
       diff-lcs (~> 1.1.2)
@@ -139,7 +139,7 @@ PLATFORMS
 DEPENDENCIES
   RedCloth (~> 4.2.7)
   aaronh-chronic
-  coderay
+  coderay (= 1.0.0)
   cucumber-rails
   factory_girl
   formtastic
