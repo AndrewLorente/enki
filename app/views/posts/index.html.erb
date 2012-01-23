@@ -5,7 +5,7 @@
   <p>There are no posts yet.</p>
 <% else -%>
   <% @posts.each do |post| -%>
-    <article class="post post-<%= post.id %>">
+    <article class="post-<%= post.id %>">
       <%= render :partial => 'post', :locals => {:post => post} %>
     </article>
   <% end -%>

@@ -119,7 +119,7 @@ footer a
 }
 
 /* roundrects */
-nav, article.post, .commentlist li, div .related
+nav, article, .commentlist li, div .related
 {
     border-radius: 5px;
 }
@@ -197,7 +197,7 @@ div.meta
     margin-bottom: 3em;
 }
 
-article.post
+article
 {
     background-color: #E1F3DD;
     padding: 2px;
