@@ -128,38 +128,42 @@ a:hover
 }
 
 /* roundrects */
-#navigation, div.post, .commentlist li, div .related
+#right-col div, div.post, .commentlist li, div .related
 {
     border-radius: 5px;
 }
 
 /* Two columns */
-#navigation
+#right-col
 {
-    background-color: #FCE1E4;
-    border: 1px #145506 solid;
     position: absolute;
-    width: 15em;
     top: -1px;
     right: 30px;
 
-    padding: 5px;
     margin-top: -12px;
 }
+#navigation, #contact
+{
+    width: 15em;
+    padding: 5px;
+    background-color: #FCE1E4;
+    border: 1px #145506 solid;
+    margin-bottom: 10px;
+}
 
-#navigation h2
+#right-col h2
 {
     display: inline;
 }
 
 
-#navigation label
+#right-col label
 {
     margin-left: 0;
     font-style: normal;
 }
 
-#navigation ul
+#right-col ul
 {
     padding-left: 10px;
 
@@ -168,26 +172,26 @@ a:hover
     list-style: none;
 }
 
-#navigation ul li
+#right-col ul li
 {
     padding-left: 0px;
     margin-left: 0px;
 }
 
-#navigation h3
+#right-col h3
 {
     font-size: 1.2em;
     font-weight: bold;
     font-family: verdana,arial,helvetica,sans-serif;
 }
 
-#navigation input
+#right-col input
 {
     border: solid 1px #145506;
     margin-left: 10px;
 }
 
-#navigation form
+#right-col form
 {
     margin-bottom: 1em;
 }
