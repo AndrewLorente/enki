@@ -1,0 +1,25 @@
+#main_head img, #right-col, #main_head h2, .page-page-title, #footer
+{
+  display: none;
+}
+
+#main_head h1
+{
+  font-size: 1em;
+  padding-left: 30px;
+}
+
+#page_container
+{
+  margin-top: 3em;
+}
+
+div.page
+{
+  border: none;
+}
+
+body *
+{
+  color: black;
+}
