@@ -128,7 +128,7 @@ a:hover
 }
 
 /* roundrects */
-#right-col div, div.post, .commentlist li, div .related
+#right-col div, div.page, div.post, .commentlist li, div .related
 {
     border-radius: 5px;
 }
@@ -210,7 +210,7 @@ div.meta
     margin-bottom: 1em;
 }
 
-div.post
+div.post, div.page
 {
     background-color: #E1F3DD;
     padding: 2px;
