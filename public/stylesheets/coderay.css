@@ -26,7 +26,7 @@ table.CodeRay td { padding: 2px 4px; vertical-align: top }
 ol.CodeRay { font-size: 10pt }
 ol.CodeRay li { white-space: pre }
 
-.CodeRay .code pre { overflow: auto }
+.CodeRay .code pre { overflow: auto; white-space: pre-wrap; }
 .af { color:#00C }
 .an { color:#007 }
 .av { color:#700 }
