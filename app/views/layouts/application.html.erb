@@ -28,6 +28,12 @@
   <div class="container">
     <div class="four columns sidebar">
       <nav>
+        <h3>More Andrew</h3>
+        <ul>
+          <li><a href="http://twitter.com/andrewlorente">Twitter</a></li>
+          <li><a href="mailto:andrew.lorente@gmail.com">Email</a></li>
+          <li><a href="https://github.com/andrewlorente">Github</a></li>
+        </ul>
         <h3>Pages</h3>
         <ul>
           <% page_links_for_navigation.each do |link| -%>
@@ -42,20 +48,14 @@
             <% end -%>
           </ul>
         <% end -%>
-        <!--<form method="get" id="sform" action="http://www.google.com/search">
+        <form method="get" id="sform" action="http://www.google.com/search">
           <div>
             <h3><label for="q">Search</label></h3>
 
             <input type="text" id="q" value="" name="q">
             <input type="hidden" name="sitesearch" value="<%= enki_config[:url] %>">
           </div>
-        </form>-->
-        <h3>Need more?</h3>
-        <ul>
-          <li><a href="http://twitter.com/andrewlorente">Twitter</a></li>
-          <li><a href="mailto:andrew.lorente@gmail.com">Email</a></li>
-          <li><a href="https://github.com/andrewlorente">Github</a></li>
-        </ul>
+        </form>
       </nav>
     </div>
     <div id="content" class="twelve columns content">

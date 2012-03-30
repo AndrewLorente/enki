@@ -11,8 +11,11 @@ $light-neutral: #888081;
 $mid-neutral: #7B817A;
 $dark-neutral: #333333;
 
+$col: 60px;
+
 body {
   background-color: $light-green;
+  padding: 12px;
 }
 
 #main_head {
@@ -48,6 +51,7 @@ strong {
 
 a {
   color: $mid-red;
+  text-decoration: none;
 }
 
 #footer a {
@@ -57,11 +61,19 @@ a {
 nav {
   background-color: $light-red;
   border: 1px $dark-green solid;
-}
 
-nav {
-  input {
+  input[type="text"] {
+    width: $col * 3;
     border: solid 1px $darkest-green;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  label {
+    font-size: inherit;
+    font-weight: inherit;
   }
 }
 
