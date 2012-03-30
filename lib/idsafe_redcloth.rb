@@ -1,0 +1,2 @@
+class IDSafeRedCloth < Redcloth
+end

@@ -17,11 +17,11 @@ class EnkiFormatter
       )
     end
 
-    def format_as_xhtml(text)
+    def format_as_xhtml(global_id, text)
       Lesstile.format_as_xhtml(
         text,
         :text_formatter => lambda {|text|
-          RedCloth.new(CGI::unescapeHTML(text)).to_html
+          IDSafeTextileDoc.new(global_id, CGI::unescapeHTML(text)).to_html
         },
         :code_formatter => code_formatter,
       )
