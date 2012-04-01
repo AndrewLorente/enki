@@ -3,10 +3,16 @@ body
 {
     color: black;
     background-color: #DAEFD6;
+    background: url("/images/header.png");
     font: normal 12px verdana, arial, helvetica, sans-serif;
     line-height: 1.5;
     padding: 10px;
     margin: 0px;
+}
+
+body *
+{
+    background: url("/images/header.png");
 }
 
 #main_head div
