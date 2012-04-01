@@ -26,22 +26,22 @@
 </head>
 <body>
   <div class="container">
-    <div class="four columns sidebar">
+    <div class="three columns sidebar">
       <nav>
-        <h3>More Andrew</h3>
+        <h4>Get More</h4>
         <ul>
           <li><a href="http://twitter.com/andrewlorente">Twitter</a></li>
           <li><a href="mailto:andrew.lorente@gmail.com">Email</a></li>
           <li><a href="https://github.com/andrewlorente">Github</a></li>
         </ul>
-        <h3>Pages</h3>
+        <h4>Pages</h4>
         <ul>
           <% page_links_for_navigation.each do |link| -%>
             <li><%= link_to(link.name, link.url) %></li>
           <% end -%>
         </ul>
         <% unless category_links_for_navigation.empty? -%>
-          <h3>Categories</h3>
+          <h4>Categories</h4>
           <ul>
             <% category_links_for_navigation.each do |link| -%>
               <li><%= link_to(link.name, link.url) %></li>
@@ -50,7 +50,7 @@
         <% end -%>
         <form method="get" id="sform" action="http://www.google.com/search">
           <div>
-            <h3><label for="q">Search</label></h3>
+            <h4><label for="q">Search</label></h4>
 
             <input type="text" id="q" value="" name="q">
             <input type="hidden" name="sitesearch" value="<%= enki_config[:url] %>">
@@ -58,7 +58,7 @@
         </form>
       </nav>
     </div>
-    <div id="content" class="twelve columns content">
+    <div id="content" class="thirteen columns content">
       <div id="main_head">
         <a href="<%= root_url %>">
           <div><%= image_tag( '/images/header.png', :alt => 'Andrew Lorente') %></div>

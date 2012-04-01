@@ -13,13 +13,15 @@ $dark-neutral: #333333;
 
 $col: 60px;
 
+$pad: 20px;
+
 body {
   background-color: $light-green;
-  padding: 12px;
+  padding: $pad;
 }
 
 #main_head {
-  padding-bottom: 40px;
+  padding-bottom: $pad;
   img {
     float:left;
   }
@@ -63,7 +65,7 @@ nav {
   border: 1px $dark-green solid;
 
   input[type="text"] {
-    width: $col * 3;
+    width: $col * 2 - $pad / 2;
     border: solid 1px $darkest-green;
   }
 
@@ -103,9 +105,19 @@ div.post, div.page {
   background-color: #DAEFD6;
 }
 
+@mixin comment {
+  border: 1px $darkest-green solid;
+  border-radius: 5px;
+  padding: $pad;
+  small {
+    display: block;
+    margin-bottom: $pad;
+  }
+}
+
 .commentlist {
   li {
-    border: 1px $darkest-green solid;
+    @include comment;
   }
 }
 
@@ -126,4 +138,39 @@ hr
 .related {
   background-color: $light-red;
   border: 1px $dark-green solid;
+}
+
+nav, div.page, div.post, div .related {
+  border-radius: 5px;
+}
+
+#comment-preview {
+  @include comment;
+  margin-bottom: $pad;
+}
+
+div.related {
+  padding: $pad;
+  margin-bottom: $pad;
+}
+
+nav, div.post {
+  padding: $pad $pad 0 $pad;
+}
+
+textarea {
+  width: 8 * $col;
+}
+
+form.new_comment {
+  label, input {
+    display: inline;
+    margin-bottom: 0;
+  }
+  label {
+    padding-left: $pad;
+  }
+  textarea {
+    margin-bottom: 0;
+  }
 }
