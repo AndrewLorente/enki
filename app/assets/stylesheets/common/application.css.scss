@@ -37,6 +37,7 @@ body {
 #footer {
   color: $mid-neutral;
   border-bottom: solid 1px $lightest-neutral;
+  padding-top: $pad;
 }
 
 h2 {
@@ -154,7 +155,7 @@ div.related {
   margin-bottom: $pad;
 }
 
-nav, div.post {
+nav, div.post, div.page {
   padding: $pad $pad 0 $pad;
 }
 
