@@ -1,0 +1,177 @@
+$lightest-green: #E1F3DD;
+$light-green: #DAEFD6;
+$dark-green: #155707;
+$darkest-green: #145506;
+$lightest-red: #FFCCCC;
+$light-red: #FCE1E4;
+$mid-red: #5C0810;
+$dark-red: #57060D;
+$lightest-neutral: #AAAAAA;
+$light-neutral: #888081;
+$mid-neutral: #7B817A;
+$dark-neutral: #333333;
+
+$col: 60px;
+
+$pad: 10px;
+
+body {
+  background-color: $light-green;
+  padding: $pad;
+}
+
+#main_head {
+  padding-bottom: $pad;
+  img {
+    float:left;
+  }
+  h1, h2 {
+    color: $dark-red;
+  }
+}
+
+#main {
+  clear:left;
+}
+
+#footer {
+  color: $mid-neutral;
+  border-bottom: solid 1px $lightest-neutral;
+  padding-top: $pad;
+}
+
+h2 {
+  color: $dark-green;
+}
+
+h2 a, h3, h4, h5 {
+    color: $dark-green;
+}
+
+strong {
+  color: $dark-neutral;
+}
+
+a {
+  color: $mid-red;
+  text-decoration: none;
+}
+
+#footer a {
+  color: $light-neutral;
+}
+
+nav {
+  background-color: $light-red;
+  border: 1px $dark-green solid;
+
+  input[type="text"] {
+    width: $col * 2 - $pad / 2;
+    border: solid 1px $darkest-green;
+  }
+
+  li {
+    margin-bottom: 6px;
+  }
+
+  label {
+    font-size: inherit;
+    font-weight: inherit;
+  }
+}
+
+div.post, div.page {
+  background-color: $lightest-green;
+  border: 1px $mid-red solid;
+}
+
+.meta {
+  ul {
+    color: $mid-neutral;
+  }
+}
+
+.archive-month {
+  .tags {
+    color: $light-neutral;
+  }
+}
+
+.meta a, .archive-month .tags a {
+  color: $light-neutral;
+  border-bottom: dotted 1px $light-neutral;
+}
+
+.alt {
+  background-color: #DAEFD6;
+}
+
+@mixin comment {
+  border: 1px $darkest-green solid;
+  border-radius: 5px;
+  padding: $pad;
+  small {
+    display: block;
+    margin-bottom: $pad;
+  }
+}
+
+.commentlist {
+  li {
+    @include comment;
+  }
+}
+
+div.date {
+  color: $light-neutral;
+}
+
+div.errors {
+  border: solid 1px red;
+  background-color: $lightest-red;
+}
+
+hr
+{
+  border-top: dotted 1px $dark-red;
+}
+
+.related {
+  background-color: $light-red;
+  border: 1px $dark-green solid;
+}
+
+nav, div.page, div.post, div .related {
+  border-radius: 5px;
+}
+
+#comment-preview {
+  @include comment;
+  margin-bottom: $pad;
+}
+
+div.related {
+  padding: $pad;
+  margin-bottom: $pad;
+}
+
+nav, div.post, div.page {
+  padding: $pad $pad 0 $pad;
+}
+
+textarea {
+  width: 8 * $col;
+}
+
+form.new_comment {
+  label, input {
+    display: inline;
+    margin-bottom: 0;
+  }
+  label {
+    padding-left: $pad;
+  }
+  textarea {
+    margin-bottom: 0;
+  }
+}
