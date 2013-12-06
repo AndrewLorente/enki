@@ -106,22 +106,6 @@ div.post, div.page {
   background-color: #DAEFD6;
 }
 
-@mixin comment {
-  border: 1px $darkest-green solid;
-  border-radius: 5px;
-  padding: $pad;
-  small {
-    display: block;
-    margin-bottom: $pad;
-  }
-}
-
-.commentlist {
-  li {
-    @include comment;
-  }
-}
-
 div.date {
   color: $light-neutral;
 }
@@ -145,11 +129,6 @@ nav, div.page, div.post, div .related {
   border-radius: 5px;
 }
 
-#comment-preview {
-  @include comment;
-  margin-bottom: $pad;
-}
-
 div.related {
   padding: $pad;
   margin-bottom: $pad;
@@ -161,17 +140,4 @@ nav, div.post, div.page {
 
 textarea {
   width: 8 * $col;
-}
-
-form.new_comment {
-  label, input {
-    display: inline;
-    margin-bottom: 0;
-  }
-  label {
-    padding-left: $pad;
-  }
-  textarea {
-    margin-bottom: 0;
-  }
 }
